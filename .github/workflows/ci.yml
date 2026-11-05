@@ -19,4 +19,4 @@ jobs:
           cache: 'maven'
 
       - name: Compilar e testar
-        run: mvn -B verif
+        run: mvn -B verify
